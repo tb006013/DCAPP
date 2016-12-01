@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta name="viewport" content="width=750, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body ng-controller="myController">
+		<header id="header" class="index-header">
+			<h1>三斤耗儿鱼</h1>
+			<span>渝北店，8号桌</span>
+		</header>
+	
+		<div class="main">
+			<ul class="nav">
+				<li ng-class="{true: 'active'}[list.ifChose]" ng-repeat="list in allData" ng-click="changeNav($index)">
+					<a href="" title="">
+						<i class="line" ng-hide="$first"></i>
+						<span class="nav-pic {{list.class}}"></span>
+						{{ list.name }}
+					</a>
+				</li>
+			</ul>
+			<div class="list">
+				<h3>{{ dinnerTitle }}</h3>
+				<ul class="dinner-list">
+					<li ng-repeat="item in dinnerList">
+						<div class="dinner-pic">
+							<img ng-src="{{item.pic}}" alt="">
+							<span class="zhuo"><i></i>同桌已点{{item.tongzhuo}}份</span>
+						</div>
+						
+						<h5>{{ item.name }}</h5>
+						<span><i>￥{{item.price}}</i>/{{item.unit}}</span>
+						<button type="button" class="index-jia"></button>
+						
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	
+		<footer class="index-footer">
+			<span>已点0道菜</span>
+			<button>
+				<a href="template/checklook.html">已点菜单</a>
+			</button>
+		</footer>
+		
+		<script type="text/javascript" src="js/angular.min.js" ></script>
+		<script type="text/javascript" src="js/app.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,141 @@
+[{
+    "id": 1,
+    "name": "主菜",
+    "class": "zhucai",
+    "ifChose": true,
+    "items": [{
+        "id": 1,
+        "name": "三金耗儿鱼",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 3,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 2,
+        "name": "好大一条鱼",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 2,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 2,
+    "name": "热菜",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 3,
+        "name": "三金耗儿鱼3333",
+        "price": 318.00,
+        "unit": "锅",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 4,
+        "name": "金青鱼",
+        "price": 118.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 5,
+        "name": "好鱼33333",
+        "price": 120.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 3,
+    "name": "凉菜",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 6,
+        "name": "三金耗儿鱼3333",
+        "price": 318.00,
+        "unit": "锅",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 7,
+        "name": "金青鱼",
+        "price": 118.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 8,
+        "name": "好鱼6663",
+        "price": 168.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 9,
+        "name": "好鱼3555333",
+        "price": 220.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 10,
+        "name": "好鱼33333",
+        "price": 126.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 4,
+    "name": "汤品",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 11,
+        "name": "三金耗儿鱼3333",
+        "price": 318.00,
+        "unit": "锅",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 12,
+        "name": "金青鱼",
+        "price": 118.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 13,
+        "name": "好鱼33333",
+        "price": 120.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 5,
+    "name": "点心",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 14,
+        "name": "三金耗儿鱼3333",
+        "price": 318.00,
+        "unit": "锅",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 15,
+        "name": "金青鱼",
+        "price": 118.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 16,
+        "name": "好鱼33333",
+        "price": 120.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 17,
+        "name": "金青鱼",
+        "price": 118.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    },{
+        "id": 18,
+        "name": "好鱼33333",
+        "price": 120.00,
+        "unit": "条",
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+}]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta name="viewport" content="width=750, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body ng-controller="myController">
+		<header class="index-header cl-header">
+			<a href="../index.html"></a>
+			<span>确认订单</span>
+		</header>
+		
+		<div class="main cl-main">
+			<ul>
+				<li></li>
+			</ul>
+			
+		</div>
+		<div class="beizhu">
+			备注：（选填）请输入您的口味、要求、忌口等
+		</div>
+		
+		<footer class="cl-footer">
+			<span>已点0道菜</span>
+			<button ng-click="tan()">传送厨房</button>
+		</footer>
+		
+		
+		<div class="tanchuang" ng-show="isshow">
+			<div class="tanchuangcontent">
+				<div class="tanchuangtxt">确定让厨房开始制作菜品了吗？</div>
+				<div class="tanchuangbtn">
+					<div ng-click="del()">取消</div>
+					<div ng-click="sru()">
+						<a href="continue.html">确定</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="../js/angular.min.js" ></script>
+		<script type="text/javascript" src="../js/checklook.js" ></script>
+	</body>
+</html>
